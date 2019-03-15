@@ -151,7 +151,7 @@ const RepositoryItem = ({
                             className="RepositoryItem-title-action"
                             onClick={updateSubscription}
                         >
-                            {watchers.totalCount}{'—'}
+                            {watchers.totalCount}{' — '}
                             {isWatch(viewerSubscription) ? 'Unwatch' : 'Watch'}
                         </Button>
                     )}
